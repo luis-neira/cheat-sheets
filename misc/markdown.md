@@ -57,6 +57,8 @@ And the next line.
 ### Links
 ```markdown
 Link with text: [link-text](https://www.google.com)
+
+Link with an image: [![alt-text](https://cdn.loom.com/sessions/thumbnails/79905c482a0646fea89060ce1d79ac91-with-play.gif)](https://www.loom.com/share/79905c482a0646fea89060ce1d79ac91)
 ```
 
 ### Images
@@ -115,6 +117,6 @@ To check the task replace the space between the bracket with "x".
 [ ] Contact the user
 ```
 
-## Reference
+### Reference
 
 Link: [markdown guide](https://www.markdownguide.org/cheat-sheet)
