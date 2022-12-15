@@ -49,7 +49,8 @@ The following commands can be helpful for working with `git`.
 | `git pull`                                 | Pull current state from the remote repository to your local repo                                                                               |     |
 | `git push -u <remote> <branch>`            | Set upstream branch using git push                                                                                                             |     |
 | `git checkout -b <new_branch> <old_branch` | Create a new branch from an old branch                                                                                                         |     |
-| `git branch -r`                            | Shows a list of existing remote branches                                                                                                                                               |     |
+| `git branch -r`                            | Shows a list of existing remote branches                                                                                                       |     |
+| git reset --soft HEAD~1                  | Reset will rewind your current HEAD branch to the specified revision. Note the --soft flag: this makes sure that the _changes_ in undone revisions are preserved.                                                                                                                                               |     |
 
 ### Working with git-flow
 
