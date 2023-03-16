@@ -28,29 +28,33 @@ git config --global user.email "developer@mydomain.com"
 
 The following commands can be helpful for working with `git`.
 
-| git command                                | Comment                                                                                                                                        |     |
-| ------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------- | --- |
-| `git init`                                 | Initialize a directory as git managed repository                                                                                               |     |
-| `git clone <repo_url>`                     | Clone a remote repository to your local client                                                                                                 |     |
-| `git status`                               | Shows uncommited changes, new files etc.                                                                                                       |     |
-| `git add <wildcard_or_filename>`           | Stage an updated / new file to the next commit                                                                                                 |     |
-| `git restore --staged <filename>`          | Remove a file from the staging area.                                                                                                           |     |
-| `git reset <filename>`                     | Remove a file from the staging area.                                                                                                           |     |
-| `git reset`                                | Remove all files from the staging area.                                                                                                        |     |
-| `git restore <filename>`                   | Discard the local changes in the file.                                                                                                         |     |
-| `git rm <wildcard_or_filename>`            | Remove a file and stage the removal for the next commit                                                                                        |     |
-| `git commit -m "<commit message">`         | Commit staged changes under a new commit                                                                                                       |     |
-| `git commit`                               | Will open an editor to write more descriptive commit messages.<br> See [here](https://cbea.ms/git-commit/) for a guide on good commit messages |     |
-| `git checkout <branch_name>`               | Switch to another branch                                                                                                                       |     |
-| `git branch`                               | Shows a list of existing branches                                                                                                              |     |
-| `git branch <branch_name>`                 | Creates a new branch (from the currently checked out branch)                                                                                   |     |
-| `git merge <branch_name>`                  | Merge changes from `branch_name` to the currently checked out branch                                                                           |     |
-| `git push`                                 | Push commited changes to the remote repository                                                                                                 |     |
-| `git pull`                                 | Pull current state from the remote repository to your local repo                                                                               |     |
-| `git push -u <remote> <branch>`            | Set upstream branch using git push                                                                                                             |     |
-| `git checkout -b <new_branch> <old_branch` | Create a new branch from an old branch                                                                                                         |     |
-| `git branch -r`                            | Shows a list of existing remote branches                                                                                                       |     |
-| git reset --soft HEAD~1                  | Reset will rewind your current HEAD branch to the specified revision. Note the --soft flag: this makes sure that the _changes_ in undone revisions are preserved.                                                                                                                                               |     |
+| git command                                 | Comment                                                                                                                                                           |     |
+| ------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
+| `git init`                                  | Initialize a directory as git managed repository                                                                                                                  |     |
+| `git clone <repo_url>`                      | Clone a remote repository to your local client                                                                                                                    |     |
+| `git status`                                | Shows uncommited changes, new files etc.                                                                                                                          |     |
+| `git add <wildcard_or_filename>`            | Stage an updated / new file to the next commit                                                                                                                    |     |
+| `git restore --staged <filename>`           | Remove a file from the staging area.                                                                                                                              |     |
+| `git reset <filename>`                      | Remove a file from the staging area.                                                                                                                              |     |
+| `git reset`                                 | Remove all files from the staging area.                                                                                                                           |     |
+| `git restore <filename>`                    | Discard the local changes in the file.                                                                                                                            |     |
+| `git rm <wildcard_or_filename>`             | Remove a file and stage the removal for the next commit                                                                                                           |     |
+| `git commit -m "<commit message">`          | Commit staged changes under a new commit                                                                                                                          |     |
+| `git commit`                                | Will open an editor to write more descriptive commit messages.<br> See [here](https://cbea.ms/git-commit/) for a guide on good commit messages                    |     |
+| `git checkout <branch_name>`                | Switch to another branch                                                                                                                                          |     |
+| `git branch`                                | Shows a list of existing branches                                                                                                                                 |     |
+| `git branch <branch_name>`                  | Creates a new branch (from the currently checked out branch)                                                                                                      |     |
+| `git merge <branch_name>`                   | Merge changes from `branch_name` to the currently checked out branch                                                                                              |     |
+| `git push`                                  | Push commited changes to the remote repository                                                                                                                    |     |
+| `git pull`                                  | Pull current state from the remote repository to your local repo                                                                                                  |     |
+| `git push -u <remote> <branch>`             | Set upstream branch using git push                                                                                                                                |     |
+| `git checkout -b <new_branch> <old_branch>` | Create a new branch from an old branch                                                                                                                            |     |
+| `git branch -r`                             | Shows a list of existing remote branches                                                                                                                          |     |
+| `git reset --soft HEAD~1`                   | Reset will rewind your current HEAD branch to the specified revision. Note the --soft flag: this makes sure that the _changes_ in undone revisions are preserved. |     |
+| `git branch -m <new_name>`                    | To rename the current branch.                                                                                                                                     |     |
+| `git branch -m <old_name> <new_name>`         | To rename a branch while pointed to any branch.                                                                                                                   |     |
+| `git push origin -u <new_name>`               | To push to local branch and reset the upstream branch                                                                                                             |     |
+| `git push origin --delete <old_name>`         | To delete the remote branch.                                                                                                                                                                  |     |
 
 ### Working with git-flow
 
