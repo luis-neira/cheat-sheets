@@ -15,7 +15,7 @@ While running pg_dump, one should examine the output for any warnings (printed 
 ## Backup Local Database Command
 
 ```bash
-pg_dump -h localhost -U fastlane -W -Ft fastlane > fastlane_dump2.tar
+pg_dump -h localhost -U fastlane -W -Ft fastlane > db.tar
 ```
 
 ## Options
