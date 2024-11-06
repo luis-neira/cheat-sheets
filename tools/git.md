@@ -51,10 +51,11 @@ The following commands can be helpful for working with `git`.
 | `git checkout -b <new_branch> <old_branch>` | Create a new branch from an old branch                                                                                                                            |     |
 | `git branch -r`                             | Shows a list of existing remote branches                                                                                                                          |     |
 | `git reset --soft HEAD~1`                   | Reset will rewind your current HEAD branch to the specified revision. Note the --soft flag: this makes sure that the _changes_ in undone revisions are preserved. |     |
-| `git branch -m <new_name>`                    | To rename the current branch.                                                                                                                                     |     |
-| `git branch -m <old_name> <new_name>`         | To rename a branch while pointed to any branch.                                                                                                                   |     |
-| `git push origin -u <new_name>`               | To push to local branch and reset the upstream branch                                                                                                             |     |
-| `git push origin --delete <old_name>`         | To delete the remote branch.                                                                                                                                                                  |     |
+| `git branch -m <new_name>`                  | To rename the current branch.                                                                                                                                     |     |
+| `git branch -m <old_name> <new_name>`       | To rename a branch while pointed to any branch.                                                                                                                   |     |
+| `git push origin -u <new_name>`             | To push to local branch and reset the upstream branch                                                                                                             |     |
+| `git push origin --delete <old_name>`       | To delete the remote branch.                                                                                                                                      |     |
+| `git branch -d <branch-name>`               | To delete a local branch.                                                                                                                                         |     |
 
 ### Working with git-flow
 
